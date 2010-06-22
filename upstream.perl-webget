@@ -1,0 +1,2 @@
+tag1: arj
+  http://packages.debian.org/unstable/arj pregexp:orig.tar.gz file:arj_0.1.1.tar.gz new: x:
