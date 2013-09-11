@@ -21,10 +21,12 @@ Configure()
 
 	cd gnu || return $?
 
-	if [ ! -f ./configure ]; then
-	    echo ">> Wait, generating ./configure with autoconf -f -i"
-	    autoconf -f -i
-	fi
+        cp ../CYGWIN-PATCHES/config.* . || exit $?
+
+        if [ ! -f ./configure ]; then
+            echo ">> Wait, generating ./configure with autoconf -f -i"
+            autoconf -f -i
+        fi
 
         ./configure                       \
         --prefix=/usr                     \
