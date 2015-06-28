@@ -61,11 +61,19 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 3.10.22-3 -----
+- New release 2015-06-28 Jari Aalto
+- Includes debian-3.10.22-13 patches:
+  security_format.patch
+  security-afl.patch
+  security-traversal-dir.patch
+  security-traversal-symlink.patch  
+
 ----- version 3.10.22-2 -----
-- New upstream release 2013-09-11 user
+- New release 2013-09-11 user
 
 ----- version 3.10.22-1 -----
 - Initial release 2009-12-09 Jari Aalto
 
-Cygwin port maintained by: user <jari.aalto@cante.net>
-Copyright (C) 2009-2013 Jari Aalto; Licensed under GPL v2 or later
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2009-2015 Jari Aalto; Licensed under GPL v2 or later

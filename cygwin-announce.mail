@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: arj 3.10.22-2 -- archiver for .arj files
+Subject: Updated: arj 3.10.22-3 -- archiver for .arj files
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -22,7 +22,12 @@ See also /usr/share/doc/arj-*/rev_hist.txt
 INSTALL OR UPGRADE NOTES
 ========================
 
-Standard Cygwin install.
+- Standard Cygwin install.
+- Includes security fixes:
+  security_format.patch
+  security-afl.patch
+  security-traversal-dir.patch
+  security-traversal-symlink.patch
 
 CYGWIN INSTALLATION INFORMATION
 ===============================
