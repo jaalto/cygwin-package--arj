@@ -19,7 +19,8 @@ Configure()
     else
         #   EXAMPLE: Any custom configuration options
 
-	cd $instdir/../gnu || return $?
+        pwd
+	cd gnu || return $?
 
         cp ../CYGWIN-PATCHES/config.* . || exit $?
 
